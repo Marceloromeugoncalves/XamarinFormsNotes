@@ -1,0 +1,16 @@
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\bin\Debug\netstandard2.0\Notes.deps.json
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\bin\Debug\netstandard2.0\Notes.dll
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\bin\Debug\netstandard2.0\ref\Notes.dll
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\bin\Debug\netstandard2.0\Notes.pdb
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\obj\Debug\netstandard2.0\Notes.csprojAssemblyReference.cache
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\obj\Debug\netstandard2.0\App.xaml.g.cs
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\obj\Debug\netstandard2.0\Notes.AssemblyInfoInputs.cache
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\obj\Debug\netstandard2.0\Notes.AssemblyInfo.cs
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\obj\Debug\netstandard2.0\Notes.csproj.CoreCompileInputs.cache
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\obj\Debug\netstandard2.0\XamlC.stamp
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\obj\Debug\netstandard2.0\Notes.dll
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\obj\Debug\netstandard2.0\ref\Notes.dll
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\obj\Debug\netstandard2.0\Notes.pdb
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\obj\Debug\netstandard2.0\NoteEntryPage.xaml.g.cs
+G:\Projetos Developer\XamarinFormsExemplos\Notes\Notes\Notes\obj\Debug\netstandard2.0\NotesPage.xaml.g.cs
