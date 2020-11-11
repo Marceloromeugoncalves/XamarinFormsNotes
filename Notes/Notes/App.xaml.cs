@@ -14,7 +14,10 @@ namespace Notes
             InitializeComponent();
 
             MainPage = new MainPage();
+
             FolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData));
+
+            //A página principal será a NotesPage.
             MainPage = new NavigationPage(new NotesPage());
         }
 
