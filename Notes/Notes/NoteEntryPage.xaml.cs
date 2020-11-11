@@ -15,14 +15,19 @@ namespace Notes
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Salvar.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void OnSaveButton_Clicked(object sender, EventArgs e)
         {
-            var note = (Note)BindingContext;
+            Note note = (Note)BindingContext;
 
             if (string.IsNullOrWhiteSpace(note.FileName))
             {
                 //Save
-                var fileName = Path.Combine(App.FolderPath, $"{Path.GetRandomFileName()}.notes.txt");
+                string fileName = Path.Combine(App.FolderPath, $"{Path.GetRandomFileName()}.notes.txt");
 
                 File.WriteAllText(fileName, note.Text);
             }
@@ -32,18 +37,25 @@ namespace Notes
                 File.WriteAllText(note.FileName, note.Text);
             }
 
+            //Retirar a NoteEntryPage da pilha de páginas.
             await Navigation.PopAsync();
         }
 
+        /// <summary>
+        /// Excluir nota.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void OnDeleteButton_Clicked(object sender, EventArgs e)
         {
-            var note = (Note)BindingContext;
+            Note note = (Note)BindingContext;
 
             if(File.Exists(note.FileName))
             {
                 File.Delete(note.FileName);
             }
 
+            //Retirar a NoteEntryPage da pilha de páginas.
             await Navigation.PopAsync();
         }
     }
